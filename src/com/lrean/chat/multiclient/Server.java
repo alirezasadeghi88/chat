@@ -1,4 +1,4 @@
-package com.lrean.chat;
+package com.lrean.chat.multiclient;
 
 import java.io.*;
 import java.net.*;
