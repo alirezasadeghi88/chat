@@ -15,6 +15,7 @@ public class ChatServer {
     public static void main(String[] args)throws IOException {
         ServerSocket serverSocket = new ServerSocket(5000);
         System.out.println("Chat server started on port 5000...");
+        System.out.println("WELCOME!");
 
         while (true){
             Socket socket = serverSocket.accept();
